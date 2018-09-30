@@ -48,11 +48,13 @@ class Owner
   end
   
   def feed_fish
-    @pets[:fishes][0].mood = 'happy'
+    @pets[:fishes].each do |instance|
+    instance.mood = 'happy'
   end
   
   def play_with_cats
-    @pets[:cats][0].mood = 'happy'
+    @pets[:cats].each do |instance|
+    instance.mood = 'happy'
   end
   
   def sell_pets
