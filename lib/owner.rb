@@ -63,7 +63,6 @@ class Owner
     @pets.keys.each do |instance|
         instance.mood = 'nervous'
       end
-    end
     @pets = {}
   end 
   
