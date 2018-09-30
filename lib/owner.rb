@@ -63,6 +63,7 @@ class Owner
         instance.mood = 'nervous'
       end
     end
+    @pets = {}
   end 
   
   def list_pets
