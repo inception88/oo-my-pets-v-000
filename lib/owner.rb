@@ -60,8 +60,7 @@ class Owner
   end
   
   def sell_pets
-    @pets.each do |key, value|
-      key.each do |instance|
+    @pets.keys.each do |instance|
         instance.mood = 'nervous'
       end
     end
